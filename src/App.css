@@ -1,33 +1,150 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background: black;
   display: flex;
-  flex-direction: column;
+  flex-direction: column
+}
+
+
+header{
+  height: 100px;
+  width: 100%;
+  background: rgb(84, 169, 248);
+  display: flex;
+  padding-left: 50px;
+}
+
+header :nth-child(1){
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+.blackBox{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+  align-content: space-around;
+  margin-bottom: -60px;
+
+}
+
+.whiteBox{
+  height: 350px;
+  width: 80%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.leftWhiteBox{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-top: 40px;
+  
+}
+
+.rightWhiteBox{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-weight: 900;
+  font-size: 23px
+
+}
+
+.name{
+  font-size: 23px;
+  font-weight: 900;
+  border-bottom: 2px solid rgb(84, 169, 248);
+
+}
+
+.buttonDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 150px;
+  
+}
+
+.previous{
   color: white;
+  background: black;
+  border: none;
+  font-size: 15px;
+  font-weight: 900;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.next{
+  color: white;
+  background: black;
+  border: none;
+  font-size: 15px;
+  font-weight: 900;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.middleButtons{
+  
+
 }
+
+.middleButtons :nth-child(1){
+  color: white;
+  background: rgb(84, 169, 248);
+  border-radius: 10px;
+  border: none;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 5px 10px
+
+}
+.middleButtons :nth-child(2){
+  color: white;
+  background: rgb(84, 169, 248);
+  border-radius: 10px;
+  border: none;
+  margin: 0 5px;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 5px 10px
+
+}
+.middleButtons :nth-child(3){
+  color: white;
+  background: rgb(84, 169, 248);
+  border-radius: 10px;
+  border: none;
+  margin-left: 5px;
+  font-size: 12px;
+  font-weight: 900;
+  padding: 5px 10px
+
+}
+
+
+
+
+
+
+
+
+
+
+
